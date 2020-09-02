@@ -1,0 +1,43 @@
+Self implemented:
+Random Forest:
+
+n=5
+The prediction accuracy using the implemented Random Forests (without SKLearn) is:  85.97864838234456 %
+
+n=10
+The prediction accuracy using the implemented Random Forests (without SKLearn) is:  86.61971830985915 %
+
+n=20
+The prediction accuracy using the implemented Random Forests (without SKLearn) is:  93.66197183098592 %
+
+n=25
+The prediction accuracy using the implemented Random Forests (without SKLearn) is:  93.73239436619718 %
+
+n=50
+The prediction accuracy using the implemented Random Forests (without SKLearn) is:  94.36619718309859 %
+
+
+Scikit implemented Random Forest:
+Best parameters set found on development set:
+{'criterion': 'gini', 'max_depth': 20, 'max_features': 3, 'min_samples_leaf': 1, 'min_samples_split': 6, 'n_estimators': 5}
+The classification report for SKlearn's Random Forests   are as follows
+              precision    recall  f1-score   support
+           0       0.98      0.84      0.91        64
+           1       0.91      0.99      0.95       107
+    accuracy                           0.94       171
+   macro avg       0.95      0.92      0.93       171
+weighted avg       0.94      0.94      0.93       171
+
+
+Scikit Implemented KNN:
+
+Best parameters set found on development set:
+{'algorithm': 'auto', 'n_neighbors': 7, 'p': 1, 'weights': 'distance'}
+The classification report for SKlearn's KNN   are as follows
+              precision    recall  f1-score   support
+           0       0.98      0.86      0.92        64
+           1       0.92      0.99      0.95       107
+    accuracy                           0.94       171
+   macro avg       0.95      0.93      0.94       171
+weighted avg       0.94      0.94      0.94       171
+
